@@ -1,0 +1,68 @@
+/* primeira nav efeito hover */
+.nav1 {
+  background-color: #000000b2;
+}
+
+.nav1 ul li a {
+  color: #007bff;
+}
+
+.nav1 ul li a:hover {
+  background-color: #0fb300;
+}
+
+/* segunda nav efeito active*/
+
+.nav2 {
+  background-color: #000000b2;
+}
+
+.nav2 ul li a {
+  color: #007bff;
+}
+
+.nav2 ul li a:active {
+  background-color: aqua;
+}
+
+/* terceira nav efeito visited*/
+
+.nav3 {
+  background-color: #000000b2;
+}
+
+.nav3 ul li a {
+  color: #007bff;
+}
+
+.nav3 ul li a:visited {
+  color: #0fb300;
+}
+
+/* quarta nav efeito disabed*/
+
+.nav4 {
+  background-color: #000000b2;
+}
+
+.nav4 ul li a {
+  color: #007bff;
+}
+
+.nav4 ul li a:disabled {
+  color: #0056b3;
+}
+
+/*quinta nav efeito line*/
+
+.nav5 {
+  background-color: #000000b2;
+}
+
+.nav5 ul li a {
+  color: #007bff;
+}
+
+.nav5 ul li a:p::first-line {
+  color: #0056b3;
+}

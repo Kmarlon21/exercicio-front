@@ -1,0 +1,19 @@
+P::first-line {
+  color: brown;
+}
+
+button::after {
+  content: " clique aqui";
+  color: red;
+}
+
+h3 {
+  background-color: rgb(7, 165, 165);
+  color: aliceblue;
+}
+
+h3::before {
+  content: "clique aqui";
+  color: yellow;
+  background-color: black;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      div > p {
+        display: none;
+      }
+      div:hover {
+        color: blue;
+      }
+      div:hover > p {
+        color: black;
+        background-color: brown;
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>teste pseudo-class</h1>
+
+    <div>
+      Carro
+      <p>mustang</p>
+      <p>opalla</p>
+      <p>voyage</p>
+    </div>
+  </body>
+</html>

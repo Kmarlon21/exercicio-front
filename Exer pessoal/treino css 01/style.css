@@ -1,0 +1,41 @@
+body {
+  background-color: white;
+  font-family: helvetica, Arial, Helvetica, sans-serif;
+}
+
+.titulo {
+  background-color: blueviolet;
+  color: aliceblue;
+  text-align: center;
+  font-size: 40px;
+  border: 3px, solid, black;
+  border-radius: 30px;
+  margin: 50px 70px 60px 70px;
+  padding: 5px 5px 5px 5px;
+}
+
+p {
+  background-color: blueviolet;
+  color: aliceblue;
+  text-align: justify;
+  text-indent: 30px;
+  border: 3px, solid, black;
+  border-radius: 15px;
+  margin-bottom: 30px;
+  padding: 5px 5px 5px 5px;
+}
+
+a {
+  color: rgb(8, 117, 212);
+  background-color: darkgreen;
+  border-radius: 10px;
+  padding: 30px 50px 30px 50px;
+  text-decoration: none;
+  margin-left: 150px;
+  margin-bottom: 100px;
+  display: inline-block;
+}
+
+a:hover {
+  background-color: blueviolet;
+}

@@ -1,0 +1,7 @@
+a {
+  color: blue;
+}
+
+a[href^="#"] {
+  background-color: red;
+}
