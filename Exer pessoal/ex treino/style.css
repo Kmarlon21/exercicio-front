@@ -1,0 +1,33 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+table {
+  border-collapse: collapse;
+  margin-left: 40px;
+  font-size: 2rem;
+}
+
+caption {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 3.5rem;
+  background-color: gray;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+th,
+td {
+  border: 1px solid black;
+}
+
+tr:nth-child(2n) {
+  background-color: gray;
+}
