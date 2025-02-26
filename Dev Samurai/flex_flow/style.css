@@ -1,0 +1,14 @@
+.container {
+  max-width: 380px;
+  min-height: 20px;
+  display: flex;
+  flex-flow: row wrap;
+  border: 1px solid black;
+}
+
+.container div {
+  font-size: 1.5em;
+  text-align: center;
+  margin: 5px;
+  background-color: tomato;
+}
